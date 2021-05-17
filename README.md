@@ -1,5 +1,13 @@
-The proper protocol and procedure to convey security matters to the Quantum Resistant Ledger using e2ee securly (though not post-quantum secure) 
-is by emailing security@theqrl.org using OpenPGP.
+This repository contains:
+
+1. The public key for security@theqrl.org
+2. Signed messages containing the hashes of some QRL releases in order that they may be verified
+
+QRL network security issues can be directed to the QRL development team at ```security@theqrl.org```
+
+Should the matter be sensitive, PGP/GPG can be used using the public key contained in this repository.
+
+While setup of secure email is outwith the scope of this repository, instructions to do so are below (thanks @jackalyst)
 
 ## Instructions
 

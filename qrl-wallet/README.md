@@ -36,13 +36,14 @@ selecting key 1 will add the key to your keychain
 
 ## 3. Download SHASUM file for the OS/version of wallet release
 
+- [v1.7.3](1.7.3)
 - [v1.7.0](1.7.0)
 - [v1.6.6](1.6.6)
 
 ## 4. Verify the signaure of the SHASUM file
 
 ```
-gpg --verify MACOS-qrl-wallet_1.7.0_x64.dmg.shasum.asc
+gpg --verify MACOS-qrl-wallet_1.7.3_x64.dmg.shasum.asc
 ```
 
 Successful verification is indicated by:
@@ -54,13 +55,13 @@ gpg: Good signature from "Security team <security@theqrl.org>"
 ## 5. Check the SHASUM of the downloaded wallet package
 
 ```
-shasum -a 512 --check MACOS-qrl-wallet_1.7.0_x64.dmg.shasum.asc
+shasum -a 512 --check MACOS-qrl-wallet_1.7.3_x64.dmg.shasum.asc
 ```
 
 Successful verification is indicated by (in this example):
 
 ```
-MACOS-qrl-wallet_1.7.0_x64.dmg: OK
+MACOS-qrl-wallet_1.7.3_x64.dmg: OK
 ```
 
 NB: _shasum: WARNING: 19 lines are improperly formatted_ messages are expected and are **not** errors: this is due to the SHASUM file being signed with GPG

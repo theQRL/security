@@ -1,6 +1,6 @@
 # Official Verification
 
-**Usage:** These links and other unique identifiers should be used to determine whether a source is officially from the QRL or the QRL foundation. 
+**Usage:** These links and other unique identifiers should be used to determine whether a source is officially from the Quantum Resistant Ledger (QRL) or The QRL Foundation (Die QRL Stiftung). 
 
 If you have concerns about services purporting to be related to the QRL or its affiliates please contact security@theqrl.org
 
